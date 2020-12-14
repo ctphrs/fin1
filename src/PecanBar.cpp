@@ -29,7 +29,7 @@ PecanBar::~PecanBar(){
 	 *
 	 */
 string PecanBar::taste(){
-return "Pecan Bar #"+numb;
+return "Pecan Bar #"+to_string(numb);
 }
 
 

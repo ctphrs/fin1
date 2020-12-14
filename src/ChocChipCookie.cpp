@@ -28,7 +28,7 @@ ChocChipCookie::~ChocChipCookie(){
 	 * 	if numb is 3 outputs "Chocolate Chip Cookie #3"
 	 */
 string ChocChipCookie::taste(){
-return "Chocolate Chip Cookie #"+numb;
+return "Chocolate Chip Cookie #"+to_string(numb);
 }
 
 

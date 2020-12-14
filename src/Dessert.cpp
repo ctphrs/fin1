@@ -12,7 +12,7 @@
 
 using namespace std;
 
-Dessert::Dessert(int numb):numb(0){
+Dessert::Dessert(int numb):numb(numb){
 
 }
 
